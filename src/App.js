@@ -12,7 +12,9 @@ const App =(props)=>{
   return(
     <>
     <div className="searchbar">
-   
+     
+     <h1>Developed by Anil</h1>
+      <p>Search any images As per your wish</p>
       <input type="text" placeholder="Serch" onChange={InputEvent} value={img}/>
      {img ==="" ?null: <Anil name={img}/>} 
       </div>
