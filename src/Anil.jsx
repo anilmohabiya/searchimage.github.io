@@ -2,7 +2,7 @@ import React from 'react';
 
 const Anil =(props)=>{
 
-    const img=`https://source.unsplash.com/600x300/?${props.name}`;
+    const img=`https://source.unsplash.com/200x300/?${props.name}`;
     return(
         <>
      
